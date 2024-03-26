@@ -7,7 +7,7 @@ import Quote from './component/Quote';
 import Resturants from './component/Resturants';
 import Contact from './component/Contact';
 import Food from './component/Foods';
-import Home from './component/Home';
+
 import reportWebVitals from './reportWebVitals';
 
 import { createBrowserRouter,RouterProvider} from "react-router-dom";
@@ -18,11 +18,7 @@ const router = createBrowserRouter([
     path: "/",
     element:<App/>,
     children: [
-      {
-        path: "/",
-        element:<Home/>,
-
-      },
+     
    {
     path: "/quote",
     element:<Quote/>,
