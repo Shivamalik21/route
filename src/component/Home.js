@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Header from './subcomponet/Header'
+import Footer from './subcomponet/Footer'
 
 
 
@@ -8,8 +9,8 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      <h1 style={{marginLeft:"45%"}}>Home</h1>
-    </div>
+
+   </div>
   )
 }
 

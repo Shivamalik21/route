@@ -8,7 +8,7 @@ const Header = () => {
    </div>
    <div>
     <ul style={{listStyle:"none", display:"flex", gap:"4vw", color:"none",textDecoration:"none"}} id="ulList">
-        <NavLink to="/"className={"tag"} style={{color:"blue"}}>Home</NavLink>
+       
      <NavLink to="/quote" className={"tag"}> quotes</NavLink>
      <NavLink to="/resturants" className={"tag"}> Resturant</NavLink>
      <NavLink to="/food" className={"tag"}> Foods</NavLink>
